@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema View</title>
+</head>
+<body>
+<form action="" method="POST">
+    {% csrf_token %}
+    <h2>Cinema detail:</h2>
+    {{ form.as_p }}
+</form>
+</body>
+</html>
